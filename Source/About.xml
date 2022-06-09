@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Agriculture</name>
+  <author>Brunayla</author>
+  <packageId>Brunayla.Agriculture</packageId>
+  <url>https://ludeon.com/forums/index.php?topic=7179.0</url>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <description>This mod adds a way to fertalize infertal ground.</description>
+</ModMetaData>
