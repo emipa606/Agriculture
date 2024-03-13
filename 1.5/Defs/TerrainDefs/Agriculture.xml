@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef ParentName="FloorBase">
+    <defName>Cultivated_Soil</defName>
+    <label>cultivated soil</label>
+    <texturePath>Terrain/Surfaces/Cultivated_Soil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>340</renderPrecedence>
+    <description>Cultivated soil for where there is none so that crops may grow.</description>
+    <pathCost>4</pathCost>
+    <statBases>
+      <WorkToMake>135</WorkToMake>
+      <Beauty>-1</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <avoidWander>true</avoidWander>
+    <scatterType>Rocky</scatterType>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>1.2</fertility>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+  </TerrainDef>
+  <TerrainDef ParentName="FloorBase">
+    <defName>Fertilized_Soil</defName>
+    <label>fertilized soil</label>
+    <texturePath>Terrain/Surfaces/Fertilized_Soil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <description>Fertilized soil for faster growing crops.</description>
+    <pathCost>4</pathCost>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <Beauty>-1</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <avoidWander>true</avoidWander>
+    <costList>
+      <RawPotatoes>2</RawPotatoes>
+    </costList>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>1.6</fertility>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+    <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+  </TerrainDef>
+  <TerrainDef ParentName="FloorBase">
+    <defName>Fertilized_Irrigated_Soil</defName>
+    <label>fertilized irrigated soil</label>
+    <texturePath>Terrain/Surfaces/Fertilized_Irrigated_Soil</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>335</renderPrecedence>
+    <description>Fertilized and irrigated soil for faster growing crops.</description>
+    <pathCost>4</pathCost>
+    <statBases>
+      <WorkToMake>250</WorkToMake>
+      <Beauty>-1</Beauty>
+      <BeautyOutdoors>0</BeautyOutdoors>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <avoidWander>true</avoidWander>
+    <costList>
+      <RawPotatoes>4</RawPotatoes>
+    </costList>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>GrowSoil</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>2.0</fertility>
+    <tools>
+      <li>
+        <label>dirt</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>DirtInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <tags>
+      <li>Soil</li>
+    </tags>
+    <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+  </TerrainDef>
+</Defs>
