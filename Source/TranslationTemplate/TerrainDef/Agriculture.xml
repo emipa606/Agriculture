@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cultivated soil -->
+  <Cultivated_Soil.label>cultivated soil</Cultivated_Soil.label>
+  <!-- EN: Cultivated soil for where there is none so that crops may grow. -->
+  <Cultivated_Soil.description>Cultivated soil for where there is none so that crops may grow.</Cultivated_Soil.description>
+  <!-- EN: dirt -->
+  <Cultivated_Soil.tools.dirt.label>dirt</Cultivated_Soil.tools.dirt.label>
+  <!-- EN: fertilized irrigated soil -->
+  <Fertilized_Irrigated_Soil.label>fertilized irrigated soil</Fertilized_Irrigated_Soil.label>
+  <!-- EN: Fertilized and irrigated soil for faster growing crops. -->
+  <Fertilized_Irrigated_Soil.description>Fertilized and irrigated soil for faster growing crops.</Fertilized_Irrigated_Soil.description>
+  <!-- EN: dirt -->
+  <Fertilized_Irrigated_Soil.tools.dirt.label>dirt</Fertilized_Irrigated_Soil.tools.dirt.label>
+  <!-- EN: fertilized soil -->
+  <Fertilized_Soil.label>fertilized soil</Fertilized_Soil.label>
+  <!-- EN: Fertilized soil for faster growing crops. -->
+  <Fertilized_Soil.description>Fertilized soil for faster growing crops.</Fertilized_Soil.description>
+  <!-- EN: dirt -->
+  <Fertilized_Soil.tools.dirt.label>dirt</Fertilized_Soil.tools.dirt.label>
+</LanguageData>
